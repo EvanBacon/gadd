@@ -1,7 +1,9 @@
 <!-- Header -->
-
+<h1 align="center">gadd</h1>
+  
 <p align="center">
-  <h1>gadd</h1>
+  <em><b>g</b>ithub <b>add</b></em>
+  <br />
   <b>download and install packages from a github monorepo</b>
   <br />
 
