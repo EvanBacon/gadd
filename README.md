@@ -1,6 +1,7 @@
 <!-- Header -->
-<h1 align="center">gadd</h1>
-  
+
+![Gadd](/gadd.png)
+
 <p align="center">
   <em><b>g</b>ithub <b>add</b></em>
   <br />
