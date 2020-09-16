@@ -25,6 +25,19 @@ npx gadd <username/repo> --path packages/library
 npx gadd react-navigation/react-navigation -p packages/core
 ```
 
+## Why tho
+
+Big epic projects like `babel`, `react-navigation`, `expo`, and `jest` keep their packages in a monorepo under the `packages/` directory. These packages cannot be installed directly using NPM or Yarn which makes it awkward and hard to test them without being published. Both NPM and Yarn should probably add first-class support for this feature but they don't 😐 So for now you can use `gadd`.
+
+## How
+
+**gadd is** a super light-weight package that clones the GitHub tar to a temporary folder, then extracts the tar into a `.gadd` folder in your project. After that gadd installs the package using your package manager tool of choice!
+
+- Modules are installed in your project's `.gadd/` folder.
+- You can add `.gadd/` to your `.gitignore` to keep the dev modules out of your git history.
+- Big repos can take a while to install, this is cuz GitHub doesn't support downloading individual folders.
+- You can install any repo by ommitting the `--path` arg, but it might make more sense to just install the package directly with NPM.
+
 ## Flags
 
 ```sh
