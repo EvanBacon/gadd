@@ -1,6 +1,6 @@
 {
   "name": "gadd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build",
   "description": "clone and install packages from a github monorepo",
   "license": "BSD-3-Clause",
