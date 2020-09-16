@@ -8,12 +8,12 @@
     "github",
     "install"
   ],
-  "homepage": "https://github.com/expo/gadd",
+  "homepage": "https://github.com/evanbacon/gadd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/gadd.git"
+    "url": "https://github.com/evanbacon/gadd.git"
   },
-  "author": "Expo <support@expo.io>",
+  "author": "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)",
   "contributors": [
     "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)"
   ],
