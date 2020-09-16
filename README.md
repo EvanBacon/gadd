@@ -1,7 +1,3 @@
-<!-- Title -->
-
-# gadd
-
 <!-- Header -->
 
 <p align="center">
