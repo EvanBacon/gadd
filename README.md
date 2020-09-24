@@ -21,9 +21,9 @@
 ```sh
 npx gadd <username/repo> --path packages/library
 
-# Example: install @react-navigation/core from github.com/react-navigation/react-navigation
+# Example: install React from github.com/facebook/react
 
-npx gadd react-navigation/react-navigation -p packages/core
+npx gadd facebook/react -p packages/react
 ```
 
 ## Why tho
