@@ -28,7 +28,7 @@ npx gadd facebook/react -p packages/react
 
 ## Why tho
 
-Big epic projects like `babel`, `react-navigation`, `expo`, and `jest` keep their packages in a monorepo under the `packages/` directory. These packages cannot be installed directly using NPM or Yarn which makes it awkward and hard to test them without being published. Both NPM and Yarn should probably add first-class support for this feature but they don't 😐 So for now you can use `gadd`.
+Big epic projects like `react`, `jest`, `babel`, `expo`, etc. keep their packages in a monorepo under the `packages/` directory. These packages cannot be installed directly using NPM or Yarn which makes it awkward and hard to test them without being published. Both NPM and Yarn should probably add first-class support for this feature but they don't 😐 So for now you can use `gadd`.
 
 ## How
 
