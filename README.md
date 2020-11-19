@@ -23,7 +23,7 @@ npx gadd <username/repo> --path packages/library
 
 # Example: install React from github.com/facebook/react
 
-npx gadd facebook/react -p packages/react
+npx gadd facebook/create-react-scripts -p packages/react-dev-utils
 ```
 
 ## Why tho
